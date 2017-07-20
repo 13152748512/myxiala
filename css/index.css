@@ -1,0 +1,65 @@
+.body{
+	background: rgba(0,0,0,0.5);
+	padding: 100px 100px;
+}
+.box{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #cccccc;
+	display: flex;
+	line-height: 50px;
+	background: white;
+}
+.btn{
+	border-left: 1px solid #CCCCCC;
+	width: 105px;
+	cursor:pointer;
+}
+.boxs{
+	position: relative;
+}
+.xiala{
+	background: white;
+	width: 302px;
+	display: none;
+	cursor:pointer;
+	position: absolute;
+	z-index: 5;
+}
+.xiala li{
+	height: 30px;
+	line-height: 30px;
+	
+}
+.boxs2{
+	position: relative;
+	margin-top: 50px;
+}
+.box2{
+	width: 300px;
+	height: 50px;
+	border: 1px solid #cccccc;
+	display: flex;
+	line-height: 50px;
+	background: white;
+}
+.btn2{
+	border-left: 1px solid #CCCCCC;
+	width: 105px;
+	cursor:pointer;
+}
+.boxs{
+	position: relative;
+}
+.xiala2{
+	background: white;
+	width: 302px;
+	display: none;
+	cursor:pointer;
+	position: absolute;
+}
+.xiala2 li{
+	height: 30px;
+	line-height: 30px;
+}
+

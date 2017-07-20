@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body class="body">
+		<div class="boxs">
+			<div class="box">
+				<input type="text" value="30万元" id="text1"/>
+				<input type="button" value="点击下拉" class="btn" id="btn1"/>
+			</div>
+			<ul class="xiala">
+				<li>40万元</li>
+				<li>50万元</li>
+				<li>60万元</li>
+				<li>70万元</li>
+				<li>80万元</li>
+				<li>90万元</li>
+			</ul>
+		</div>
+		<div class="boxs2">
+			<div class="box2">
+				<input type="text" value="6月" id="text2"/>
+				<input type="button" value="点击下拉" class="btn" id="btn2"/>
+			</div>
+			<ul class="xiala2">
+				<li>7月</li>
+				<li>8月</li>
+				<li>9月</li>
+				<li>10月</li>
+				<li>1年</li>
+				<li>2年</li>
+			</ul>
+		</div>
+		
+	</body>
+	<script src="js/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		
+			$("#btn1").click(function(){
+			$(".xiala").css({"display":"block"});
+				return false;
+			})
+			$(document).click(function(){
+				$(".xiala").css({"display":"none"});
+				return false;
+			})
+			$(".xiala li").each(function(){
+				$(this).click(function(){
+					$("#text1").val($(this).html());
+				})
+			})
+			
+			$("#btn2").click(function(){
+			$(".xiala2").css({"display":"block"});
+				return false;
+			})
+			$(document).click(function(){
+				$(".xiala2").css({"display":"none"});
+				return false;
+			})
+			$(".xiala2 li").each(function(){
+				$(this).click(function(){
+					$("#text2").val($(this).html());
+				})
+			})
+		
+		
+	</script>
+</html>
