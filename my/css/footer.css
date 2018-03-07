@@ -1,0 +1,132 @@
+div.footer{
+    width:100%;
+    padding:35px 0;
+    background:#000;
+}
+/*上*/
+div.site{
+    width:100%;
+    height:125px;
+    background:#F6F8F9;
+    margin-top:30px;
+}
+div.site>ul{
+    width:1191px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+div.site>ul>li{
+    margin-top:30.5px;
+}
+div.site>ul>li>a{
+    display:inline-block;
+    margin-right:20px;
+    width:64px;
+    height:64px;
+    border-radius:50%;
+    background:#000;
+    transition: all 0.3s ease-out;
+}
+div.site>ul>li>span{
+    font-size:20px;
+    position: relative;
+    top:-20px;
+}
+div.site li:nth-child(1) a{
+    background:#000 url(../img/logi/indlast_01.png) no-repeat
+}
+div.site li:nth-child(2) a{
+    background:#000 url(../img/logi/indlast_02.png) no-repeat
+}
+div.site li:nth-child(3) a{
+    background:#000 url(../img/logi/indlast_03.png) no-repeat
+}
+div.site li:nth-child(4) a{
+    background:#000 url(../img/logi/indlast_04.png) no-repeat
+}
+div.site li:nth-child(1) a:hover{
+    background-position: center -7px;
+}
+div.site li:nth-child(2) a:hover{
+    background-position: center -7px;
+}
+div.site li:nth-child(3) a:hover{
+    background-position: center -7px;
+}
+div.site li:nth-child(4) a:hover{
+    background-position: center -7px;
+}
+/*中下*/
+div.foot{
+    width:1191px;
+    margin: 0 auto;
+}
+div.footer-top{
+    width:100%;
+    padding-bottom:25px;
+    border-bottom:1px solid #262626;
+    overflow: hidden;
+}
+div.loot{
+    width:290px;
+    padding-right:87px;
+    border-right:1px solid #262626;
+}
+div.loot dl{
+    width:124px;
+    margin-right:20px;
+    float:left;
+}
+div.loot dl dd{
+    width:112px;
+    height:112px;
+    padding:5px;
+    border:1px solid #262626;
+}
+div.loot dl dd img{
+    width:100%;
+}
+div.loot dl dt{
+    font-size:12px;
+    text-align:center;
+    margin-top: 10px;
+    color:#969696;
+}
+div.root{
+    width:718px;
+}
+div.root ul{
+    float:left;
+}
+.u1,.u2,.u3{
+    width: 200px;
+}
+div.root ul li span{
+    color:#fff;
+    display: block;
+    margin-bottom:20px;
+}
+div.root ul li a{
+    color:#a29e9e;
+    display: block;
+    height:30px;
+}
+/*下*/
+.footer-bottom{
+    padding-top:20px;
+    color:#a29e9e;
+    text-align:center;
+}
+.footer-bottom p{
+    padding-top:4px;
+}
+.footer-bottom p a{
+    color:#a29e9e;
+}
+.footer-bottom p span{
+    margin:0 24px;
+}
+.footer-bottom p.p1>a{
+    margin-right: 24px;
+}

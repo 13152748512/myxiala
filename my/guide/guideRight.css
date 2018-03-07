@@ -1,0 +1,58 @@
+div.jointly{
+    margin:50px 0 0 70px;
+    width:950px;
+}
+div.zhinan>p{
+    height:45px;
+    font-size: 20px;
+    border-bottom:1px dotted #000;
+    margin-bottom:28px;
+}
+
+/*新手上路**/
+
+div.noob>div>h4{
+    font-weight:normal;
+    font-size:16px;
+    margin-bottom:20px;
+    border-left:4px solid #8fc31f;
+    color:#8fc31f;
+    padding-left:10px;
+}
+div.noob{
+    padding:0 0 40px 0;
+    border-bottom:1px dotted #000;
+    margin-bottom:30px;
+}
+div.noob div p{
+    margin:35px 0 36px 0;
+    font-size:14px;
+}
+div.noob div p a{
+    color:#ed1511;
+}
+/***支付方式**/
+div.pay,div.delivery,div.arayacak,div.integral,div.familiar,div.sale{
+    border-bottom:none;
+}
+/****配送方式***/
+div.delivery p.text_btm{
+   color:#ed1511;
+}
+/***自提流程****/
+div.arayacak>div>p.text_btm,div.text{
+    font-size:14px;
+    line-height:30px;
+}
+div.arayacak>div>div.text>h5{
+   font-weight:normal;
+    font-size:15px;
+    color:#E40280;
+    line-height:16px;
+}
+/**积分说明*****/
+/***售后服务****/
+div.sale ul{
+    margin-bottom:30px;
+    font-size:14px;
+}

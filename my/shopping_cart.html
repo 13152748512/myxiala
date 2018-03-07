@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/common.css"/>
+  <link rel="stylesheet" href="css/header.css"/>
+  <link rel="stylesheet" href="css/shopping_cart.css"/>
+  <link rel="stylesheet" href="css/footer.css"/>
+ </head>
+ <body>
+  <div class="main">
+    <!--头部-->
+    <div id="header"></div>
+    <!--主体  -->
+    <div class="subject">
+      <!--返回首页-->
+      <div class="index"><b class="index-b"></b><a href="index.html">返回首页</a></div>
+      <!--购物车列表-->
+      <div id="shopping-cart" class="clear">
+       <div class="title">
+				<p>已选<span class="totle">0</span>件商品
+					<span>合计(不计运费)</span>
+					<span class="totalPrices ">￥0.00</span>
+					<span>元</span>
+				</p>
+			 </div>
+			 <div class="content-box">
+				<div class="check-top">
+					<img src="img/cart/product_normal.png"/>全选	
+				</div>
+				<div class="product-top">商品</div>
+				<div class="price-top">单价(元)</div>
+				<div class="num-top">数量</div>
+				<div class="total-top">金额</div>
+				<div class="del-top">操作</div>
+			 </div>
+				<!--购物车详情-->
+				<div id="content-box-body">
+					<!-- <div class="imfor">
+						全选	
+						<div class="check">
+							<img class="chk" src="img/cart/product_normal.png" alt="">
+						</div>
+						商品
+						<div class="product">
+							<a href="#" class="img lf"><img src="img/picture/20170126144202354.jpg"/></a>
+							<div class="shopp">	
+								<span class="desc">
+									<a href="product_details.html?lid=18">联想(Lenovo)小新700电竞版 15.6英寸游戏笔记本电脑(i7-6700HQ 8G 500G GTX950M 4G FHD IPS Office)黑</a>
+								</span>
+								<p class="col">
+									<span>规格：</span>
+									<span class="color-desc">dsfdsfdsfd</span>
+								</p>
+							</div>
+						</div>
+						单价
+						<div class="pric">
+							<b class="rmb">￥0.00</b>
+						</div>
+						数量
+						<div class="num">
+							<span class="reduce">-</span>
+							<input type="text" value="1" />
+							<span class="add">+</span>
+						</div>
+						金额
+						<div class="total-price">
+							<span>￥22222.00</span>
+						</div>
+						操作
+						<div class="del">
+							<a href="#">删除</a>
+						</div>
+					</div> -->
+				</div>
+        <!--结算-->
+        <div class="foott">
+          <div class="base">
+            <div class="all">
+              <img src="img/cart/product_normal.png" alt="" />全选
+            </div>
+            <a href="#">删除</a>
+          </div>
+          <div class="go-price">
+            <div class="foot-selected">
+              已选<span class="tota">0</span>件商品
+            </div>
+            <div class="foot-tol">
+              合计(不含运费)：<span class="foot-price">¥0.00</span>元
+            </div>
+            <div class="foot-cash"><a href="#">去结算</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--确定删除弹出-->
+		<div id="model">
+			<div class="ensure-omit">
+				<p>是否删除?</p>
+				<div class="info">
+					请谨慎操作！
+				</div>
+				<div>
+					<span id="ensure">确定</span>
+					<span id="call-off">取消</span>
+				</div>
+			</div>
+		</div>
+    <!--页尾-->
+    <div id="footer"></div>
+  </div>
+  <script src="js/ajax.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/shopping_cart.js"></script>
+  <script src="js/footer.js"></script>
+ </body>
+</html>

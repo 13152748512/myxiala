@@ -1,0 +1,90 @@
+<!doctype html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/footer.css"/>
+    <title></title>
+</head>
+<body>
+<div class="logiym">
+    <header id="header"></header>
+    <div class="logi">
+        <div class="img lf">
+            <video  class="video" src="video/25bOOOPIC73.mp4" autoplay loop muted ></video>
+        </div>
+        <div class="lf fform">
+            <form action="#">
+                <p id="uname">
+                    <span>用户名</span>
+                    <input id="myuname" type="text" name="uname" placeholder="请输入用户名">
+                    <s>*</s>
+                    <img src="img/logi/success_msg_icon.gif">
+                    <b>6-15个字符以内</b>
+                    <i>6-15个字符以内</i>
+                </p>
+                <p id="upwd">
+                    <span>密码</span>
+                    <input id="myupwd" type="password" name="upwd" placeholder="请输入密码">
+                    <s>*</s>
+                    <img src="img/logi/success_msg_icon.gif">
+                    <b>6-12位数字/字母</b>
+                    <i>6-12位数字/字母</i>
+                </p>
+                <p id="upwds">
+                    <span>确认密码</span>
+                    <input id="cppwd" type="password" name="uppwd"  placeholder="请输入密码">
+                    <s>*</s>
+                    <img src="img/logi/success_msg_icon.gif">
+                    <b>请在输入一次</b>
+                    <i>两次密码不一致</i>
+                </p>
+                <p id="iphone">
+                    <span>手机号</span>
+                    <input id="myphone" type="password" name="phone" placeholder="请输入手机号">
+                    <s>*</s>
+                    <img src="img/logi/success_msg_icon.gif">
+                    <b>输入正确手机号</b>
+										<i>手机号不能为空</i>
+                </p>
+								<p id="email">
+                    <span>邮箱</span>
+                    <input id="myEmail" type="email" name="Email" placeholder="请输入邮箱">
+                    <s>*</s>
+                    <img src="img/logi/success_msg_icon.gif">
+										<i>邮箱格式错误</i>
+                </p>
+                <div id="agree">
+                    <span></span>
+                    <a href="#">我已阅读并同意《美利达用户注册协议》</a>
+                </div>
+                <div class="btn">
+                    <input id="mybtn" type="button"  value="确认注册">
+                </div>
+            </form>
+        </div>
+				<!--确定删除弹出-->
+				<div id="model">
+					<div class="ensure-omit">
+						<p>注册</p>
+						<div class="info">
+							恭喜注册成功！
+						</div>
+						<div>
+							<span id="ensure">确定</span>
+						</div>
+					</div>
+				</div>
+    </div>
+    <footer id="footer"></footer>
+</div>
+<script src="js/ajax.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/header.js"></script>
+<script src="js/register.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

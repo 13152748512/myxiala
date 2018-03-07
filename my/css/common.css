@@ -1,0 +1,24 @@
+/*通用*/
+body,h1,h2,h3,h4,h5,h6,ul,dd,p,ol,dl{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+i{
+	font-style:normal;
+}
+body{
+	background-color: #fff;
+	font:12px  "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	color:#000;
+}
+a{text-decoration:none; color:#446009;}
+img{vertical-align:middle;}
+.lf{float:left}
+.rt{float:right}
+
+.clear:after{
+	content: "";
+	display: block;
+	clear:both;
+}

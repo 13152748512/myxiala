@@ -1,0 +1,182 @@
+div.wid{
+    width:1191px;
+    margin:0 auto;
+}
+div.leftcentl{
+    width:170px;
+    margin-top:40px;
+}
+div.leftCentlTab>h3{
+    background:#000;
+    width:170px;
+    height:40px;
+    color:#fff;
+    font-size:20px;
+    padding-left:20px;
+    line-height:40px;
+    font-weight:normal;
+    box-sizing: border-box;
+}
+div.leftCentlTab>ul>li>a{
+    display:inline-block;
+    height:35px;
+    line-height: 35px;
+    margin-left:20px;
+    font-size: 14px;
+    color:#000;
+}
+div.leftCentlTab>ul>li:not(:first-child){
+    border-top:1px dotted #cecece;
+}
+div.leftCentlTab{
+    margin-bottom:20px;
+}
+/*********订单******************/
+.portrait_img{
+	border-radius:50%;
+}
+.portrait{
+	margin-right:40px;
+}
+.punam{
+	margin:27px 0 18px 0;
+	font-size:16px;
+}
+.myorder{
+	font-size:23px;
+	margin-bottom:15px;
+}
+.current{
+	height:40px;
+	line-height:40px;
+	display:flex;
+	background:#f5f5f5;
+	text-align:center;
+}
+.product{
+	width:280px;
+}
+.sname{
+	width:120px;
+}
+.price{
+	width:110px;
+}
+.pay{
+	width:180px;
+}
+.respon{
+	width:120px;
+}
+.detail{
+	width:140px;
+}
+.list{
+	height:144px;
+	border:1px solid #dbdbdb;
+	margin-top:5px;
+}
+.xingq{
+	display:flex;
+	text-align:center;
+	margin-top:25px;
+}
+.orderNum{
+	margin-top:8px;
+}
+.hcolor{
+	margin-right:10px;
+	margin-left:10px;
+	color:#7d7d7d;
+	font-size:13px;
+}
+.product .img{
+	display:inline-block;
+	width:66px;
+	height:66px;
+	border:1px solid #ddd;
+	line-height:63px;
+	float:left;
+	margin-left:10px;
+	margin-right:20px;
+}
+.list .line{
+	line-height:66px;
+}
+.abolish{
+	color:#e4007f;
+}
+div.detail span{
+	margin-left:5px;
+	font-size:14px;
+}
+div.detail a{
+	color:#000;
+}
+.product .img img{
+	width:60px;
+	height:60px;
+}
+.color-r img{
+	width:22px;
+}
+.shopp{
+	margin-top:15px;	
+}
+.desc a{
+	color:#000;
+}
+.bottomImg{
+	margin-top:110px;
+}
+.bottomImg img{
+	width:100%;
+}
+.paging{
+	margin-top:30px;
+}
+.paging ul li{
+	float:left;
+	margin-left:7px;
+}
+.paging ul li a{
+	padding:3px 7px;
+	border:1px solid #CCCCCC;
+	border-radius: 2px;
+	color:#000;
+}
+.paging ul li a.ativer{
+	background: #9DCB39;
+    color: #fff;
+}
+#quanbu{
+	font-style:normal;
+	margin-left:40px;
+}
+/**订单信息*/
+.trime{
+	font-size:16.5px;
+	margin:40px 0 20px 0;
+}
+.purNumSet{
+	margin-right:30px;
+	margin-top:40px;
+}
+.purAllNum2 span{
+	display:inline-block;
+	width:90px;
+	text-align:right;
+	font-size:15px;
+	margin-top: 6px;
+}
+.purAllNum{
+	text-align:right;
+	font-size:19px;
+	position: relative;
+    left: -23px;
+    margin-top: 10px;
+	color:#89c50a
+}
+.zongg p{
+	margin-bottom:10px;
+}

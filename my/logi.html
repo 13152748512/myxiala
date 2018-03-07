@@ -1,0 +1,76 @@
+<!doctype html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/logi.css">
+    <link rel="stylesheet" href="css/footer.css"/>
+    <title></title>
+</head>
+<body>
+    <div class="logiym">
+        <header id="header"></header>
+        <div class="logi">
+            <div class="img lf">
+                <img src="img/logi/loginL_imgmm.jpg">
+            </div>
+            <div class="lf fform">
+                <form action="#">
+                    <p id="uname">
+                        <span>手机号/用户名</span>
+                        <input type="text" name="uname" placeholder="请输入手机号/用户名">
+                        <b>*</b>
+                        <i>用户名或密码错误</i>
+                    </p>
+                    <p id="upwd">
+                        <span>密码</span>
+                        <input type="password" name="upwd" placeholder="请输入密码">
+                        <b>*</b>
+                        <i>填写用户密码</i>
+                    </p>
+                    <div class="yzmm">
+                          <span>验证码</span>  
+                          <input type="text" id="code" placeholder="输入验证码"/>
+                          <img  id="img" src="data/user/yzm.php"/>
+                          <a href="#" id="hyzm">换一张</a>
+                          <b>*</b>
+                          <i id="yzm-i">验证码错误</i>
+                     </div>
+                    <div class="box">
+                        <input type="checkbox">
+                        <span>记住密码</span>
+                    </div>
+                    <div class="btn">
+                        <input type="button"  value="登录">
+                    </div>
+                    <div class="box-bott">
+                        <span><a data-zhuce="zc" href="#">免费注册</a><i></i></span>
+                        <span><a href="#">忘记密码？</a></span>
+                    </div>
+                </form>
+            </div>
+						<!---->
+						<!--确定删除弹出-->
+						<div id="model">
+							<div class="ensure-omit">
+								<p>登录</p>
+								<div class="info">
+									登录成功！
+								</div>
+								<div>
+									<span id="ensure">确定</span>
+								</div>
+							</div>
+						</div>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/logi.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

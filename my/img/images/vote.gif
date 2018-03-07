@@ -1,0 +1,626 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name=”renderer” content="webkit|ie-comp|ie-stand">
+<title>美利达官方商城</title>
+
+
+
+	<script type="text/javascript" charset="UTF-8" src="/runtime/_systemjs/jquery/jquery-1.11.3.min.js"></script><script type="text/javascript" charset="UTF-8" src="/runtime/_systemjs/jquery/jquery-migrate-1.2.1.min.js"></script>
+
+	<script type='text/javascript' src='/views/default/javascript/html5.js'></script>
+
+	<script type="text/javascript" charset="UTF-8" src="/runtime/_systemjs/artdialog/artDialog.js"></script><script type="text/javascript" charset="UTF-8" src="/runtime/_systemjs/artdialog/plugins/iframeTools.js"></script><link rel="stylesheet" type="text/css" href="/runtime/_systemjs/artdialog/skins/aero.css" />
+
+  <script type='text/javascript' src='/views/default/javascript/orderFormClass.js'></script>
+
+	<script type='text/javascript' src='/views/default/javascript/public.js'></script>
+
+	
+
+	<script type='text/javascript' src="/views/default/javascript/common.js"></script>
+
+	<script type='text/javascript' src='/views/default/javascript/site.js'></script>
+	<script type='text/javascript' src='/views/default/javascript/share.js'></script>
+	<script type='text/javascript' src='/views/default/javascript/jquery-1.11.3.min.js'></script>
+	<script type='text/javascript' src='/views/default/javascript/jquery-migrate-1.2.1.min.js'></script>
+
+	
+
+<link type="text/css" rel="stylesheet" href="/views/default/skin/red/css/base.css" />
+
+<link type="text/css" rel="stylesheet" href="/views/default/skin/red/css/home.css" />
+
+<link rel='icon' href='/upload/icons/favicon.ico' type='image/x-ico' /> 
+
+<script type="text/javascript">
+
+     $(function () {  
+
+if(navigator.appName=='Microsoft Internet Explorer'){
+	$(document).width()=($(document).width()-24);
+	}
+
+
+         $("body").css("width", $(document).width() + "px");
+
+         $(window).resize(function () {
+
+             if ($(window).width() > 1350) {
+
+                 $("body").css("width", $(window).width() + "px");
+
+             } else {
+
+                 $("body").css("width", $(document).width() + "px");
+
+             }
+
+         });
+
+
+
+     });
+
+</script>
+
+</head>
+
+<body class="indexBg">
+
+	<!--head  Str-->
+
+	<div class="headerWrap">
+
+  	<!--直通车-->
+
+  	<div class="headTopW">
+
+    	<div class="headTop">
+
+      <div class="headTopL fl">
+
+      	<a href="http://www.merida.cn/" target="_blank" class="">[ 美利达官网 ]</a>
+
+        <a href="http://weibo.com/u/3058916485?topnav=1&wvr=6&topsug=1&is_hot=1" target="_blank" class=""><em>[</em><img src="/views/default/skin/red/images/front/headTop_weibo.png" alt=""><span>美利达官方微博</span><em>]</em></a>
+
+      </div>
+
+      <div class="headTopR fr">
+
+		
+			<a class="reg" href="/index.php?controller=simple&action=reg&callback=" target="_blank">免费注册</a>
+
+			<span>|</span>
+
+			<a href="/index.php?controller=simple&action=login&callback=" target="_blank">登录</a>
+
+			
+
+		
+      </div>
+
+      <div class="clear"></div>
+
+      </div>
+
+    </div>
+
+    <!--logo-->
+
+    <div class="logoWrapW">
+
+      <div class="logoWrap">
+
+        <div class="logo fl"><a href="http://www.merida.cn/" target="_blank">
+
+          <img src="/views/default/skin/red/images/front/logo.png" alt="">
+
+          <img src="/views/default/skin/red/images/front/logo_mall.png" alt="">
+
+          </a>
+
+        </div>
+
+        <div class="search fl">
+
+          <div class="searchTop  fl">
+
+            <form method='get' action='/index.php'>
+
+              <input type='hidden' name='controller' value='site' />
+
+              <input type='hidden' name='action' value='search_list' />
+
+        			<a class="searchIco fl"><img src="/views/default/skin/red/images/front/searchIco.png" alt=""></a>
+
+        			<input class="fl" type="text" name='word' placeholder="搜索关键字">
+
+<input type="submit" class="serchBtn fl"  value="搜索">
+
+            </form>
+
+          </div>
+
+          <div class="searchBt fl">
+
+                     
+                    
+
+             
+            
+			<a href="/index.php?controller=site&action=search_list&word=%E9%80%9A%E5%8B%A4%E4%BB%A3%E6%AD%A5" target="_blank">通勤代步</a>
+
+            
+            
+			<a href="/index.php?controller=site&action=search_list&word=%E8%BD%A6%E8%BA%AB%E5%95%86%E5%93%81" target="_blank">车身商品</a>
+
+            
+            
+			<a href="/index.php?controller=site&action=search_list&word=%E5%B1%B1%E5%9C%B0%E8%BD%A6" target="_blank">山地车</a>
+
+            
+            
+			<a href="/index.php?controller=site&action=search_list&word=%E5%9F%8E%E5%B8%82%E4%BC%91%E9%97%B2" target="_blank">城市休闲</a>
+
+            
+            
+			<a href="/index.php?controller=site&action=search_list&word=%E4%BA%BA%E8%BA%AB%E5%95%86%E5%93%81" target="_blank">人身商品</a>
+
+            
+          </div>
+
+        </div>
+
+        <div class="shoppCart fr">
+
+          <span>购物车</span>
+
+          <a class="shoppCartPic" href="/index.php?controller=simple&action=cart" target="_blank"><img src="/views/default/skin/red/images/front/shoppCart_img.png" alt=""></a>
+
+          <a href="/index.php?controller=simple&action=cart" class="shoppCartNum" name="mycart_count">0</a>
+
+        </div>
+
+        <div class="clear"></div>
+
+      </div>
+
+    </div>
+
+    <!--nav-->
+
+    <div class="headNavWrap">
+
+    	<div class="headNav">                                                                
+
+      	<ul id="navlist">
+
+      	  <li class="on"><a href="/">首页</a></li>
+
+      	  <li><a href="/index.php?controller=site&action=pro_list&cat=0">全部商品</a></li>
+
+      	  
+		  	<li><a href="/index.php?controller=site&action=pro_list&cat=1">自行车</a></li>
+
+		  
+		  	<li><a href="/index.php?controller=site&action=pro_list&cat=2">车身商品</a></li>
+
+		  
+		  	<li><a href="/index.php?controller=site&action=pro_list&cat=4">人身商品</a></li>
+
+		  
+		  	<li><a href="/index.php?controller=site&action=pro_list&cat=11">其他分类</a></li>
+
+		  
+      	   <li><a href="/index.php?controller=site&action=servicestore">服务门店</a></li> 
+
+      	  <li><a href="/index.php?controller=site&action=moregoods">队版装备</a></li>
+
+          <li><a href="/index.php?controller=site&action=help&id=39">品牌故事</a></li>
+
+          <li><a href="/index.php?controller=site&action=help&id=55">购物须知</a></li>
+
+          <li><a href="/index.php?controller=site&action=help&id=45">常见问题</a></li>
+
+      	</ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+
+  	$(function(){
+
+  		var pagename = $("#pagename").val()
+
+  		$("#navlist a").each(function(){
+
+  			var name = $(this).text()
+
+  			if(pagename == name){
+
+  				$("#navlist li").removeClass("on")
+
+  				$(this).parent().addClass("on")
+
+  			}
+
+  		})
+
+  	})
+
+  </script>
+
+  <!--head  End-->
+
+  
+
+<div class="widFFF">
+<div class="error wrapper ">
+	<table class="form_table prompt_3 f_l">
+		<col width="250px" />
+		<col />
+		<tr>
+			<th valign="top"><img src="/views/default/skin/red/images/front/cry.gif" width="122" height="98" /></th>
+			<td>
+				<p class="mt_10"><strong class="f14 gray">请确定要访问的页面是否存在</strong></p>
+				<p class="gray">您可以：</p>
+				<p class="gray">1.检查刚才的输入</p>
+				<p class="gray">2.去其他地方逛逛：<a href='javascript:void(0)' class='blue' onclick='window.history.go(-1);'>返回上一级操作</a>|<a class="blue" href="/">网站首页</a>|<a class="blue" href="/index.php?controller=ucenter&action=order">我的订单</a>|<a class="blue" href="/index.php?controller=simple&action=cart">我的购物车</a></p>
+			</td>
+		</tr>
+	</table>
+</div>
+</div>
+
+
+
+
+
+  <div class="website">
+
+    <dl class="c-txt">
+
+    <a href="#" target="_blank">
+
+        <dt><em id="aaa"></em></dt>
+
+        <dd>世界一级车队用车</dd>
+
+     </a>
+
+    </dl>
+
+    <dl class="c-txt">
+
+    <a href="index.php?controller=site&action=help&id=55" target="_blank">
+
+        <dt class="pic"><em class="picc" id="bbb"></em></dt>
+
+        <dd>88元起全国包邮</dd>
+
+     </a>
+
+    </dl>
+
+    <dl class="c-txt">
+
+    <a href="index.php?controller=site&action=help&id=52" target="_blank">
+
+        <dt class="pic2"><em class="picc2" id="ccc"></em></dt>
+
+        <dd>车架本体终身保固</dd>
+
+    </a>
+
+    </dl>
+
+    <dl class="c-txt c-txtLast">
+
+    <a href="index.php?controller=site&action=servicestore" target="_blank">
+
+        <dt class="pic3"><em class="picc3" id="ddd"></em></dt>
+
+        <dd>全国2000家门店售后保障</dd>
+
+    </a>
+
+    </dl>
+
+  </div>
+
+	<!--main  End-->
+
+
+
+	<!--foot  Str-->
+
+  <div class="footerWrap">
+
+  	<div class="foot">
+
+    <div class="footTw">
+
+    	<div class="footL fl">
+
+      	<!--<div class="footLt">
+
+        	<p><em><img src="/views/default/skin/red/images/front/footTel.png" alt=""></em><a href=""><img src="/views/default/skin/red/images/front/c.png" alt=""></a></p>
+
+          <p class="time">周一至周日 9:00-21:00</p>
+
+        </div>-->
+
+        <div class="footLb">
+
+        <dl>
+
+          <dd><img src="/views/default/skin/red/images/front/weiboerweima.png" alt=""></dd>
+
+          <dt>微博关注</dt>
+
+        </dl>
+
+        <dl>
+
+          <dd><img src="/views/default/skin/red/images/front/weixinerweima.jpg" alt=""></dd>
+
+          <dt>微信关注</dt>
+
+        </dl>
+
+        <div class="clear"></div>
+
+        </div>
+
+      </div>
+
+      <div class="footR fr">
+
+      	<div class="footRt fl">
+
+        	<div class="footRtTab">
+
+          	<span>购物指南</span>
+
+              
+			<a href="/index.php?controller=site&action=help&id=50" target="_blank"><span>新手上路</span></a>
+
+			
+			<a href="/index.php?controller=site&action=help&id=35" target="_blank"><span>支付方式</span></a>
+
+			
+			<a href="/index.php?controller=site&action=help&id=34" target="_blank"><span>配送方式</span></a>
+
+			
+			<a href="/index.php?controller=site&action=help&id=36" target="_blank"><span>自提流程</span></a>
+
+			
+          </div>
+
+          <div class="footRtTab">
+
+          	<span>服务指南</span>
+
+            <a href="/index.php?controller=site&action=article&id=1" target="_blank"><span>最新活动</span></a>
+
+            
+			<a href="/index.php?controller=site&action=help&id=57" target="_blank"><span>积分说明</span></a>
+
+			
+			<a href="/index.php?controller=site&action=help&id=45" target="_blank"><span>常见问题</span></a>
+
+			
+			<a href="/index.php?controller=site&action=help&id=52" target="_blank"><span>售后服务</span></a>
+
+			
+          </div>
+
+          <div class="footRtTab">
+
+          	<span>关于我们</span>
+
+            
+			<a href="/index.php?controller=site&action=help&id=40" target="_blank"><span>公司简介</span></a>
+
+			
+			<a href="/index.php?controller=site&action=help&id=39" target="_blank"><span>品牌故事</span></a>
+
+			
+			<a href="/index.php?controller=site&action=help&id=38" target="_blank"><span>公司愿景</span></a>
+
+			
+          </div>
+
+          <div class="footRtTab noMrg">
+
+          	<span>联系我们</span>
+
+             
+			<a href="/index.php?controller=site&action=help&id=49" target="_blank"><span>客户服务</span></a>
+
+			
+             <li><a href="/index.php?controller=site&action=complain"><span>投诉建议</span></a></li>
+
+          </div>
+
+        </div>
+
+        <div class="clear"></div>
+
+      </div>
+
+       <div class="clear"></div>
+
+     </div>
+
+      <div class="footRb">      
+<p>
+
+          <span>客服热线</span>早8:00-晚17:00：0534-5018398-8203 </span>
+
+           <span>晚17:00-晚21:00：18766069155 </span>
+        
+
+          </p>
+        	<p>
+
+          <span>美利达自行车(中国)有限公司</span>
+
+
+          <span>客服信箱：<a href="mailto:merida@merida.cn" target="_blank">merida@merida.cn</a></span>
+
+          </p>
+
+          <p class="p2">
+
+          <span>CopyRight©2016</span>
+
+          <span><a href="mall.merida.cn" target="_blank">mall.merida.cn</a></span>
+
+          <span><a href="mall.merida.com.cn" target="_blank">mall.merida.com.cn</a></span>
+
+          </p>
+
+        </div>
+
+      <div class="clear"></div>
+
+    </div>
+
+  </div>
+
+	<!--foot  Str-->
+
+  
+
+  <!--toTop-->
+
+  <div class="allFixed">
+
+  	<!-- <p class="fixA"><span>选车导航</span><a href="">&gt;</a></p> -->
+
+    <p class="fixBtm">
+
+    	<span>在线咨询</span>
+
+       <a class="fixB"  href="http://p.qiao.baidu.com/cps/chat?siteId=10251231&userId=22935492" target="_blank"><img src="/views/default/skin/red/images/front/fixed_ico1.png" alt=""></a>
+
+      <a class="fixC" href="http://p.qiao.baidu.com/cps/chat?siteId=10251231&userId=22935492" target="_blank"><img src="/views/default/skin/red/images/front/fixed_ico2.png" alt=""></a>
+
+      <a class="fixD" href="http://p.qiao.baidu.com/cps/chat?siteId=10251231&userId=22935492" target="_blank"><img src="/views/default/skin/red/images/front/fixed_ico3.png" alt=""></a>
+
+	</p>
+
+  </div>
+
+	<div id="gotopbottom"><img src="/views/default/skin/red/images/front/pic_gotopnow.jpg" border="0" onMouseOver="this.src='/views/default/skin/red/images/front/pic_gotopnow.jpg'" onMouseOut="this.src='/views/default/skin/red/images/front/pic_gotopnow.jpg'" /></div>
+
+  <!-- <script type='text/javascript' src='http://tb.53kf.com/kf.php?arg=10128430&style=1'></script>
+
+ -->
+
+<script> //(function () {var _53code=document.createElement("script");_53code.src = '//tb.53kf.com/code/code/10129341/1'; var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(_53code, s);})(); </script>
+
+
+
+<script>
+
+/*跳动效果*/
+
+ var img=document.getElementById("aaa");
+
+ new JumpObj(img,7);
+
+  var img=document.getElementById("bbb");
+
+ new JumpObj(img,7);
+
+  var img=document.getElementById("ccc");
+
+ new JumpObj(img,7);
+
+ var img=document.getElementById("ddd");
+
+ new JumpObj(img,7);
+
+</script>
+
+<script type="text/javascript">
+
+//置顶
+
+ backTop=function (btnId){
+
+    var btn=document.getElementById(btnId);
+
+    var d=document.documentElement;
+
+	var sTop = 0;
+
+    window.onscroll=set;
+
+    btn.onclick=function (){
+
+    btn.style.display="none";
+
+    window.onscroll=null;
+
+    this.timer=setInterval(function(){
+
+	    sTop-=Math.ceil(sTop*0.1);
+
+		document.body.scrollTop = sTop;
+
+		document.documentElement.scrollTop = sTop;
+
+    if(sTop==0)  {
+
+		clearInterval(btn.timer,window.onscroll=set);
+
+		document.body.scrollTop = sTop;
+
+		document.documentElement.scrollTop = sTop;
+
+	}
+
+    },10);
+
+    }; 
+
+    function set(){
+
+	sTop = document.body.scrollTop+document.documentElement.scrollTop;
+
+	btn.style.display=sTop?'block':"none"}
+
+    };
+
+    backTop('gotopbottom');
+
+</script>
+
+<!--统计-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?b9ede5ea698a09b56aac90a5c40f9c23";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<div style="display:none;"><script src="http://s95.cnzz.com/z_stat.php?id=1258140299&web_id=1258140299" language="JavaScript"></script></div>
+</body>
+
+</html>

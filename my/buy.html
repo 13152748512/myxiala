@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/header.css"/>
+<link rel="stylesheet" href="css/buy.css"/>
+<link rel="stylesheet" href="css/footer.css"/>
+</head>
+<body>
+<div class="main">
+ <!-- 头部 -->
+ <div id="header"></div>
+ <!--主体  -->
+ <div class="buy">
+	<!--返回首页-->
+    <div class="index"><b class="index-b"></b><a href="index.html">返回首页</a></div>
+	<!-- 配送方式	 -->
+	<div class="mode">
+		<p class="size">配送方式</p>
+		<div class="mode-delivery">
+			<input type="radio" checked>
+			用户自提
+			<span>选择自提点</span>
+		</div>
+		<div class="mode-site">
+			<span class="default">默认自提点：</span>
+			<span class="bike-name">林芝高山自行车</span>
+			<a href="#" class="amend">修改</a>
+			<p class="mode-choice">
+				<span>自提点详细信息:</span>
+				<b class="detail-address"></b>
+			</p>
+		</div>
+	</div>
+	<!-- 提货人 -->
+	<!-- 新增提货人 -->
+	<div class="bill-lading">
+		<p class="size">提货人</p>
+		<div class="lading clear">
+			<span class="option">选择：</span>
+			<div class="name-phone" >
+				<!--<div class="name-no1">
+					<input type="radio" name="bill">
+					<span >姓名：</span>
+					<b class="compellation">谢英豪</b>
+					<span >手机号：</span>
+					<b class="compellation">13152748512</b>
+				</div>-->
+			</div>
+			<p class="new-name">
+				<a href="#">新增提货人</a> 
+			</p>
+		</div>
+		<div class="new-lading accordion">
+			<p class="size">新增提货人</p>	
+			<p class="take-name">
+				<i>*</i>
+				<span>收货人姓名</span>
+				<input type="text" placeholder="请输入姓名">
+				<i class="err-name">姓名不能为空</i>
+			</p>
+			<p class="take-phone">
+				<i>*</i>
+				<span>手机号码</span>
+				<input type="text" placeholder="请输入手机号">
+				<i class="err-phone">手机号格式不正确</i>
+			</p>
+			<p class="append">
+				<a href="#">确定添加</a>
+			</p>
+		</div>
+	</div>
+	<!-- 支付方式	 -->
+	<div class="pay">
+		<p class="size">支付方式</p>
+		<div class="alipay">
+			<input type="radio" checked> 支付宝即时到账
+		</div>
+	</div>
+	<!-- 发配送时间  -->
+	<div class="time">
+		<p class="size">配送时间</p>
+		<div class="time-elect">
+			<p><input type="radio" name="deivery" checked> 不限时间</p>
+			<p><input type="radio" name="deivery"> 工作日配送</p>
+			<p><input type="radio" name="deivery"> 休息日配送</p>
+		</div>
+	</div>	
+	<!-- 订单商品 -->
+	<div class="order">
+		<div class="order-header">
+			<p class="size">订单商品</p>
+			<div class="indent">
+				<div class="product">商品信息</div>
+				<div class="price">价格(元)</div>
+				<div class="count">数量</div>
+				<div class="subtotal">小计(元)</div>
+			</div>
+		</div>
+		<div class="order-detail">
+			<div class="overall">
+				<!-- 商品信息 -->
+				<!--<div class="product">
+					<a href="#" class="img"><img src="img/picture/20170126144202354.jpg"></a>
+					<div class="shopp">	
+						<span class="desc">
+							<a href="product_details.html?lid=3">MERIDA美利达山地车 雄狮 26轮径 27速机械碟刹</a>
+						</span>
+						<p class="col">
+							<span>规格：</span>
+							<span class="color-desc">26*18</span>
+						</p>
+						<p class="color-r">
+							<span>颜色：</span>
+							<img src="img/picture/20171123043310132.jpg" alt="">
+						</p>
+					</div>
+				</div>-->
+				 <!-- 价格 -->
+<!-- 				<div class="price">¥2822.00</div> -->
+				<!-- 数量 -->
+<!-- 				<div class="count">1</div> -->
+				<!-- 小计 -->
+<!-- 				<div class="subtotal">¥2905.00</div> -->
+			</div>
+		</div>
+	</div>
+	<!-- 总金额  提交订单-->
+	<div class="money clear">
+		<div class="present">
+			<p class="account">
+				<!-- <span><b>商品总金额：</b><i>5555.00</i></span>
+				<span><b>运费总计：</b><i>0</i></span>
+				<span class="extended">总计：<i>¥20980.00</i></span> -->
+			</p>
+			<a href="#" id="btn">提交订单</a>
+		</div>
+	</div>
+ </div>
+ <!-- 页尾 -->
+ <div id="footer"></div>
+ <!--选择自提地点-->
+ <div class="choice">
+  <div class="choice-site">
+    <div class="padlock">
+      <a href="#">×</a>
+    </div>
+    <div class="choice-top"></div>
+    <div class="choice-right"></div>
+    <div class="choice-bottom"></div>
+    <div class="choice-left"></div>
+    <div class="choice-choose">
+      <div class="provinces">
+        <select class="provse" name="provse">
+          <option value="-请选择省份-">-请选择省份-</option>
+        </select>
+         <select class="wardenry">
+          <option value="-请选择城市-">-请选择城市-</option>
+        </select>
+         <select class="distinguish">
+          <option value="-请选择区域-">-请选择区域-</option>
+        </select>
+				<div class="minutely">
+					<!-- <div>
+						<input class="" type="radio" name="minutely"/>
+					</div> -->
+				</div>
+      </div>
+      <!--选择--->
+      <div class="choose">
+        <a href="javascript:;">选择</a>
+      </div>
+    </div>
+  </div>
+ </div>
+</div> 
+<script src="js/ajax.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/header.js"></script>
+<script src="js/buy.js"></script>
+<script src="js/footer.js"></script>
+</body>
+</html>

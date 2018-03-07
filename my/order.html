@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/guide.css">
+    <link rel="stylesheet" href="guide/guideRight.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<div>
+    <!--页面头部-->
+    <header id="header"></header>
+    <!--中间部分-->
+    <div class="wid clear">
+        <!--左边导航-->
+        <div class="leftcentl lf">
+						<div class="leftCentlTab leftcentlTop ">
+							<h3>订单中心</h3>
+                <ul>
+                    <li><a data-guide="quanbu" href="#">全部订单<i id="quanbu">0</i></a></li>
+                    <li><a data-guide="daifu" href="#">待付款订单</a></li>
+                    <li><a data-guide="daishou" href="#">待收货订单</a></li>
+                    <li><a data-guide="tuihuan" href="#">退换货订单</a></li>
+                </ul>
+						</div>
+            <div class="leftCentlTab">
+                <h3>购物指南</h3>
+                <ul>
+                    <li><a data-guide="xinshou" href="#">新手上路</a></li>
+                    <li><a data-guide="zhifu" href="#">支付方式</a></li>
+                    <li><a data-guide="peisong" href="#">配送方式</a></li>
+                    <li><a data-guide="ziti" href="#">自提流程</a></li>
+                </ul>
+            </div>
+            <div class="leftCentlTab">
+                <h3>服务指南</h3>
+                <ul>
+                    <li><a data-guide="zuixin" href="#">最新活动</a></li>
+                    <li><a data-guide="jifen" href="#">积分说明</a></li>
+                    <li><a data-guide="changjian" href="#">常见问题</a></li>
+                    <li><a data-guide="shouhou" href="#">售后服务</a></li>
+                </ul>
+            </div>
+            <div class="leftCentlTab">
+                <h3>关于我们</h3>
+                <ul>
+                    <li><a data-guide="gongsi" href="#">公司介绍</a></li>
+                    <li><a data-guide="pinpai" href="#">品牌故事</a></li>
+                    <li><a data-guide="yuanjing" href="#">公司愿景</a></li>
+                </ul>
+            </div>
+            <div class="leftCentlTab">
+                <h3>联系我们</h3>
+                <ul>
+                    <li><a data-guide="kehu" href="#">客服服务</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--右边内容-->
+				<div id="rightCentlTab" class="lf">
+					<div class="jointly">
+						<div class="noob clear">
+							<dl>
+								<dd class="portrait lf">
+									<img class="portrait_img" src="img/user_ico.gif" alt="" />
+								</dd>
+								<dt class="lf">
+									<p class="punam ">haohao</p>
+									<p class="p2">
+										<span>身 份：美利达会员</span>
+									</p>
+								</dt>
+							</dl>
+						</div>
+						<div class="perCentOrdList">
+							<div class="myorder">我的订单</div>
+							<div class="pcList">
+								<div class="current">
+									<span class="product">全部订单</span>
+									<span class="sname">收货人</span>
+									<span class="price">总计</span>
+									<span class="pay">支付方式</span>
+									<span class="respon">全部状态</span>
+									<span class="detail">操作</span>
+								</div>
+							</div>
+							<!--订单列表-->
+							<div id="Detailslist">
+								<!-- <div class="list">
+									<div class="orderNum">
+										<span class="hcolor">1920/23/43/12:33:00</span>
+										<span class="hcolor">订单号：23234324324234</span>
+									</div>
+									<div class="xingq">
+										订单详情
+										<div class="product">
+											<a href="#" class="img"><img src="img/picture/20170126144202354.jpg"></a>
+											<div class="shopp">	
+												<span class="desc">
+													<a href="product_details.html?lid=3">MERIDA美利达山地车 雄狮 26轮径 27速机械碟刹</a>
+												</span>
+												<p class="col">
+													<span>规格：</span>
+													<span class="color-desc">26*18</span>
+												</p>
+												<p class="color-r">
+													<span>颜色：</span>
+													<img src="img/picture/20171123043310132.jpg" alt="">
+												</p>
+											</div>
+										</div>
+										 收货人
+										 <div class="sname line">谢英豪</div>
+										 收货人
+										<div class="price line">¥2822.00</div>
+										支付方式
+										<div class="pay line">支付宝</div>
+										状态
+										<div class="respon line abolish">取消</div>
+										详情
+										<div class="detail line"><a href="#">订单详情</a><span>></span></div>
+									</div>
+								</div> -->
+							</div>
+							<div class="paging rt">
+								<ul>
+									<li><a href="#">第一页</a></li>
+									<li><a href="#" class="ativer">1</a></li>
+									<li><a href="#">下一页</a></li>
+								</ul>
+							</div>
+							<div class="bottomImg">
+								<img src="img/logi/perCentOrdBnr.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--结束-->
+					</div>
+        </div>
+    </div>
+    <!--页面底部-->
+    <footer id="footer"></footer>
+</div>
+</body>
+<script src="js/ajax.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/header.js"></script>
+<script src="js/order.js"></script>
+<script src="js/guide.js"></script>
+<script src="js/footer.js"></script>
+</html>
